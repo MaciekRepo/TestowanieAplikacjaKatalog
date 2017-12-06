@@ -1,0 +1,26 @@
+C:\Users\Maciek\Documents\VSCODE\solucja\ef\bin\Debug\netcoreapp2.0\ef.deps.json
+C:\Users\Maciek\Documents\VSCODE\solucja\ef\bin\Debug\netcoreapp2.0\ef.dll
+C:\Users\Maciek\Documents\VSCODE\solucja\ef\bin\Debug\netcoreapp2.0\ef.pdb
+C:\Users\Maciek\Documents\VSCODE\solucja\ef\obj\Debug\netcoreapp2.0\ef.csproj.CoreCompileInputs.cache
+C:\Users\Maciek\Documents\VSCODE\solucja\ef\obj\Debug\netcoreapp2.0\ef.AssemblyInfoInputs.cache
+C:\Users\Maciek\Documents\VSCODE\solucja\ef\obj\Debug\netcoreapp2.0\ef.AssemblyInfo.cs
+C:\Users\Maciek\Documents\VSCODE\solucja\ef\obj\Debug\netcoreapp2.0\ef.dll
+C:\Users\Maciek\Documents\VSCODE\solucja\ef\obj\Debug\netcoreapp2.0\ef.pdb
+C:\Users\Maciek\Documents\solucja\ef\obj\Debug\netcoreapp2.0\ef.csproj.CoreCompileInputs.cache
+C:\Users\Maciek\Documents\solucja\ef\obj\Debug\netcoreapp2.0\ef.AssemblyInfoInputs.cache
+C:\Users\Maciek\Documents\solucja\ef\obj\Debug\netcoreapp2.0\ef.AssemblyInfo.cs
+C:\Users\Maciek\Documents\solucja\ef\obj\Debug\netcoreapp2.0\ef.dll
+C:\Users\Maciek\Documents\solucja\ef\obj\Debug\netcoreapp2.0\ef.pdb
+C:\Users\Maciek\Documents\solucja\ef\bin\Debug\netcoreapp2.0\ef.deps.json
+C:\Users\Maciek\Documents\solucja\ef\bin\Debug\netcoreapp2.0\ef.dll
+C:\Users\Maciek\Documents\solucja\ef\bin\Debug\netcoreapp2.0\ef.pdb
+C:\Users\Maciek\Documents\solucja\ef\obj\Debug\netcoreapp2.0\ef.csprojResolveAssemblyReference.cache
+D:\testowanie\solucja wersja 2\solucja\ef\bin\Debug\netcoreapp2.0\ef.deps.json
+D:\testowanie\solucja wersja 2\solucja\ef\bin\Debug\netcoreapp2.0\ef.dll
+D:\testowanie\solucja wersja 2\solucja\ef\bin\Debug\netcoreapp2.0\ef.pdb
+D:\testowanie\solucja wersja 2\solucja\ef\obj\Debug\netcoreapp2.0\ef.csprojResolveAssemblyReference.cache
+D:\testowanie\solucja wersja 2\solucja\ef\obj\Debug\netcoreapp2.0\ef.csproj.CoreCompileInputs.cache
+D:\testowanie\solucja wersja 2\solucja\ef\obj\Debug\netcoreapp2.0\ef.AssemblyInfoInputs.cache
+D:\testowanie\solucja wersja 2\solucja\ef\obj\Debug\netcoreapp2.0\ef.AssemblyInfo.cs
+D:\testowanie\solucja wersja 2\solucja\ef\obj\Debug\netcoreapp2.0\ef.dll
+D:\testowanie\solucja wersja 2\solucja\ef\obj\Debug\netcoreapp2.0\ef.pdb

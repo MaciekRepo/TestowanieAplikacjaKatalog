@@ -1,0 +1,9 @@
+web/obj/
+web/obj/*
+/web/obj/*
+web/obj/Debug/netcoreapp2.0/web.dll
+/web/obj/Debug/netcoreapp2.0/web.dll
+/.vs/solucja/v15/Server/sqlite3/db.lock
+/.vs/solucja/v15/Server/sqlite3/storage.ide
+/.vs/solucja/v15/Server/sqlite3/storage.ide-shm
+/.vs/solucja/v15/Server/sqlite3/storage.ide-wal

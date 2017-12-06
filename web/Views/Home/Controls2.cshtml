@@ -1,0 +1,13 @@
+﻿@model List<ComponentViewModel>
+
+<div class="frame">
+    <div class="row">
+        <div class="control">
+            <ej-autocomplete id="delimit" width="500" datasource="Model">
+                <e-autocomplete-fields key="ComponentId" text="ComponentName" />
+            </ej-autocomplete>
+        </div>
+    </div>
+</div>
+
+<a asp-controller="Home" asp-action="Controls3">Przejdz na kolejny ekran</a>

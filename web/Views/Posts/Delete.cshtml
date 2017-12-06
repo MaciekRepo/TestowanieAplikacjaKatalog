@@ -1,0 +1,36 @@
+﻿@model PostViewModel
+@{
+    ViewData["Title"] = "Delete";
+}
+<h2>Usuwanie posta</h2>
+<h3>Na pewno chcesz usunąć ten post?</h3>
+<div>
+    <h4>Post</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Created)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Created)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Modified)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Modified)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Usuń post" class="btn btn-default" /> |
+        <a asp-action="Index">Z powrotem do listy</a>
+    </form>
+</div>

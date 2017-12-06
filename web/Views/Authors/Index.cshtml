@@ -1,0 +1,71 @@
+﻿@model IEnumerable<AuthorViewModel>
+
+@{
+    ViewData["Title"] = "Autorzy";
+}
+
+<h2>Autorzy</h2>
+
+<p>
+    <a asp-action="Create">Dodaj nowego autora</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modified)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <b>@Html.DisplayFor(modelItem => item.FirstName)</b>
+                </td>
+                <td>
+                    <b>@Html.DisplayFor(modelItem => item.LastName)</b>
+                </td>
+                <td>
+                    <b>@Html.DisplayFor(modelItem => item.Created)</b>
+                </td>
+                <td>
+                    <b> @Html.DisplayFor(modelItem => item.Modified)</b>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edycja</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Szczegóły</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
+                </td>
+            </tr>
+            @foreach (var post in item.Posts)
+            {
+                <tr class="authorPosts">
+                    <td>
+                        @Html.DisplayFor(p => post.Content)
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a asp-controller="Posts" asp-action="Edit" asp-route-id="@post.Id">Edycja</a> |
+                        <a asp-controller="Posts" asp-action="Details" asp-route-id="@post.Id">Szczegóły</a>|
+                        <a asp-controller="Posts" asp-action="Delete" asp-route-id="@post.Id">Usuń</a>
+                    </td>
+                </tr>
+
+            }
+        }
+    </tbody>
+</table>
